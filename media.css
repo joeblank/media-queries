@@ -1,6 +1,6 @@
 .header {
     width:100%;
-    background: red;
+    background: lightskyblue;
     height: 75px;
 }
 
@@ -24,22 +24,3 @@
 }
 
 
-
-@media(min-width: 700px) {
-    .HAM {
-        display: none;
-    }
-
-    .header ul {
-        display: block;
-    }
-
-}
-
-@media(min-width: 1050px) {
-    .header {
-        display: block;
-        background: blue;
-    }
-
-}
