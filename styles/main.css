@@ -133,7 +133,28 @@
 .product-img-gallery-container img {
     width: 100%;
 }
-
+/*.products {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}*/
 
 /*MEDIA QUERIES GO HERE EVERYTHING ABOVE THIS IS CONSIDERED MOBILE FIRST STYLES*/
+@media (min-width: 750px) {
+  .HAM {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .product {
+    width: 45%;
+    margin: 1px 0;
 
+  }
+}

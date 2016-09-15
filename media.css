@@ -1,7 +1,8 @@
-.header {
+/*.header {
     width:100%;
     background: lightskyblue;
     height: 75px;
+    margin-bottom: 20px;
 }
 
 .HAM {
@@ -20,7 +21,103 @@
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
+  }
+.block {
+  width: 100%;
+  height: 300px;
+  background: lightgray;
+  margin-bottom: 20px;
+}
+
+}
+@media(min-width: 750px) {
+  .main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .block {
+    width: 45%;
+  }
+  .HAM {
+    display: none;
+  }
+  .header ul {
+    display: flex;
+  }
+}
+@media (minw-idth: 900px) {
+  .block {
+    width: 25%;
+    background: lightskyblue;
+  }
+}*/
+.header {
+    width:100%;
+    background: lightskyblue;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+.HAM {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    float: right;
+}
+
+.header ul {
+    display: none;
+    align-self: flex-end;
 
 }
 
+.header ul li {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
 
+.block {
+    width:100%;
+    height:300px;
+    background: lightgray;
+    margin-bottom: 20px;
+}
+
+ /* These styles are applied when screen size is larger than 750px */
+@media(min-width: 750px) {
+    .main-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .block {
+        width:45%;
+     }
+
+    .HAM {
+        display: none;
+    }
+
+    .header ul {
+        display: flex;
+    }
+
+}
+
+@media(min-width: 900px) {
+    .block {
+        width:25%;
+    }
+
+    .block:nth-child(even) {
+        background: lightskyblue;
+    }
+
+    .block:nth-child(odd) {
+        background: lightcoral;
+    }
+
+}
