@@ -1,0 +1,359 @@
+
+
+
+.footer {
+    background: #252b33;
+    float: left;
+    color: #7e8890;
+    display: block;
+    width: 100%;
+    padding: 3.125em 0 2.8125em;
+    text-align: center
+}
+
+.footer::after {
+    clear: both;
+    display: table
+}
+
+.footer-logo {
+    margin-bottom: 1.875em;
+    height: 2.5em
+}
+
+.footer-about {
+    font-size: .875em;
+    line-height: 2.14286;
+    display: block;
+    margin: 0 auto;
+    max-width: 35.28571em
+}
+
+.footer-about p {
+    margin-bottom: 0
+}
+
+.footer-meta-copy p {
+    margin-bottom: 0;
+    color: rgba(208, 213, 216, .3);
+    font-size: .85714em
+}
+
+.footer-meta-social {
+    display: block;
+    margin: 1.875em 0 1.6875em
+}
+
+.footer-meta-social-list li {
+    margin: 0 .9375em;
+    display: inline-block
+}
+
+.footer-meta-social-list li:last-child {
+    margin-right: 0
+}
+
+.footer-meta-social-list path {
+    fill: #7e8890
+}
+
+.footer-marketplace {
+    font: brandon-grotesque, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: .6875em;
+    font-weight: 700;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    float: left;
+    display: block;
+    margin-right: 4.10959%;
+    width: 100%
+}
+
+.footer-marketplace:last-child {
+    margin-right: 0
+}
+
+.footer-marketplace::after {
+    clear: both;
+    display: table
+}
+
+.footer-marketplace .content-container {
+    padding: 11.25em 0;
+    float: left;
+    display: block;
+    margin-right: 4.10959%;
+    width: 100%
+}
+
+.footer-marketplace .content-container:last-child {
+    margin-right: 0
+}
+
+.footer-marketplace .content-container .row-content a {
+    color: #fff;
+    border-bottom: solid 1px #333;
+    padding-bottom: 1px;
+    -webkit-transition: all ease .35s;
+    transition: all ease .35s
+}
+
+.footer-marketplace .content-container .row-content a:active,
+.footer-marketplace .content-container .row-content a:hover {
+    border-color: #fff
+}
+
+.footer-marketplace .content-container .row-content div {
+    float: left;
+    display: block;
+    margin-right: 4.10959%;
+    width: 100%
+}
+
+.footer-marketplace .content-container .row-content div:last-child {
+    margin-right: 0
+}
+
+.footer-marketplace .content-container .row-content .footer-marketplace-left,
+.footer-marketplace .content-container .row-content .footer-marketplace-logo,
+.footer-marketplace .content-container .row-content .footer-marketplace-right {
+    text-align: center
+}
+
+.footer-marketplace .content-container .row-content .footer-marketplace-left {
+    padding-bottom: 63px
+}
+
+.footer-marketplace .content-container .row-content .footer-marketplace-right {
+    padding-top: 63px
+}
+
+.footer-marketplace .content-container .row-content .footer-marketplace-right a {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    border: none
+}
+
+.footer-marketplace .content-container .row-content svg {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 34px
+}
+
+.footer-marketplace .content-container .row-content h2 {
+    font-size: 2em;
+    margin-bottom: 8px
+}
+
+.footer-marketplace .content-container .row-content h3 {
+    font-size: 1.125em
+}
+
+.footer-marketplace .content-container .row-social {
+    float: left;
+    display: block;
+    margin-right: 4.10959%;
+    width: 100%;
+    text-align: center;
+    margin-top: 66px
+}
+
+.footer-marketplace .content-container .row-social:last-child {
+    margin-right: 0
+}
+
+.footer-marketplace .content-container .row-social svg {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #333;
+    padding: 6px;
+    border-radius: 50%;
+    -webkit-transition: all ease .35s;
+    transition: all ease .35s;
+    margin: 0 8px
+}
+
+.footer-marketplace .content-container .row-social svg:active,
+.footer-marketplace .content-container .row-social svg:hover {
+    border-color: #fff
+}
+
+.footer-marketplace .content-container .row-social svg circle {
+    fill: none;
+    stroke: none
+}
+
+.footer-marketplace .content-container .row-social svg path {
+    fill: #fff
+}
+
+.footer-marketplace .content-container .row-address {
+    float: left;
+    display: block;
+    margin-right: 4.10959%;
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+    font-size: .625em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .5;
+    letter-spacing: .2em
+}
+
+.footer-marketplace .content-container .row-address:last-child {
+    margin-right: 0
+}
+
+.footer-marketplace .footer-invision-cta {
+    color: #8d8d8d;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 2.5em .3125em 35px;
+    float: left;
+    display: block;
+    margin-right: 4.10959%;
+    width: 100%;
+    margin-bottom: 0
+}
+
+.footer-marketplace .footer-invision-cta:last-child {
+    margin-right: 0
+}
+
+.footer-marketplace .footer-invision-cta span {
+    margin-left: 1.25em;
+    display: inline
+}
+
+.footer-marketplace .footer-invision-cta span:nth-child(1) {
+    margin-left: 0;
+    display: block;
+    margin-bottom: 26px
+}
+
+.footer-marketplace .footer-invision-cta span:nth-child(2) {
+    margin-left: 0;
+    margin-top: 3.75em
+}
+
+.footer-marketplace .footer-invision-cta span:nth-child(3) {
+    margin-top: 5em
+}
+
+.footer-marketplace .footer-invision-cta .see-why {
+    border: 1px solid #8d8d8d;
+    padding: 7px 14px;
+    color: #8d8d8d
+}
+
+.footer-marketplace .footer-invision-cta .see-why svg {
+    margin-left: 1px
+}
+
+.footer-marketplace .footer-invision-cta .see-why svg path {
+    fill: #8d8d8d
+}
+
+.footer-marketplace .footer-invision-cta .see-why:active,
+.footer-marketplace .footer-invision-cta .see-why:hover {
+    border-color: #d0d5d8;
+    color: #d0d5d8
+}
+
+.footer-marketplace .footer-invision-cta .see-why:active path,
+.footer-marketplace .footer-invision-cta .see-why:hover path {
+    fill: #d0d5d8
+}
+
+.footer-marketplace .footer-invision-cta .get-started {
+    border: 1px solid #f36;
+    color: #f36;
+    padding: 7px 14px
+}
+
+.footer-marketplace .footer-invision-cta .get-started:active,
+.footer-marketplace .footer-invision-cta .get-started:hover {
+    border-color: #ff668c;
+    color: #ff668c
+}
+
+.footer-invision {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 3.75em 0;
+    color: #fff;
+    background: url(../img/footer-background.jpg) center center no-repeat #252b33;
+    background-size: cover;
+    z-index: 1;
+    box-shadow: inset 0 0 .625em 0 rgba(0, 0, 0, .2)
+}
+
+.footer-invision::after {
+    clear: both;
+    display: table
+}
+
+.no-js .footer-invision {
+    background: url(../img/footer-background.jpg) center center no-repeat #252b33
+}
+
+.footer-invision .container,
+.footer-invision .product-wrapper {
+    position: relative;
+    z-index: 10
+}
+
+.footer-invision p {
+    color: rgba(255, 255, 255, .5);
+    font-weight: 400
+}
+
+.safari .footer-invision p {
+    font-weight: 500
+}
+
+.footer-invision-by {
+    margin-bottom: 2.5em
+}
+
+.footer-invision-logo {
+    height: 2.125em;
+    display: inline-block;
+    margin: 0 auto 1.875em
+}
+
+.footer-invision-title {
+    display: block;
+    font-size: 1.5em
+}
+
+.footer-invision-title::after {
+    clear: both;
+    display: table
+}
+
+.footer-invision-subtitle {
+    display: block;
+    margin-bottom: 2.5em
+}
+
+.footer-invision-subtitle::after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.footer-invision-cta {
+    margin-bottom: 2.5em
+}
+
+.footer-invision-play svg {
+    height: 2.8125em;
+    width: 2.8125em
+}
